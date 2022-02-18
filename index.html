@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <label for="fixed">Letters with known positions (place _ for unknown letters)</label>
+  <br>
+  <input id="fixed" type="text" maxlength="5">
+
+  <br>
+  <label for="possible">Letters with unknown positions.</label>
+  <br>
+  <input id="possible" type="text">
+
+  <br>
+  <label for="exclude">Letters to exclude.</label>
+  <br>
+  <input id="exclude" type="text">
+
+  <br>
+  <br>
+  <input id="double" type="checkbox">
+  <label for="double">Exclude words with double letters.</label>
+  <br>
+  <h4>Press enter to run.</h4>
+
+  <ul id="output"></ul>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
